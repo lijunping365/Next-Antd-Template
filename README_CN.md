@@ -16,9 +16,9 @@ English / [简体中文](./README_CN.md)
 
 </div>
 
-## ✨ Overview
+## 概览
 
-This is a starter template using the following stack:
+这是一个使用以下技术栈的starter模板:
 
 - Framework - [Next.js 14](https://nextjs.org/14)
 - Language - [TypeScript](https://www.typescriptlang.org)
@@ -26,42 +26,41 @@ This is a starter template using the following stack:
 - Linting - [ESLint](https://eslint.org)
 - Formatting - [Prettier](https://prettier.io)
 
-This template uses the new Next.js Page Router. This template providers dashboard layout, supports theme switching and more.
+该模板使用新的 Next.js Page Router。该模板提供仪表板布局，支持主题切换等。
 
-> TIP!
+> 提示!
 >
-> We have encapsulated the antd table paging request, you can use the hooks we provide to easily complete the table paging request.
+> 我们对 antd table 的分页请求进行了封装，你可以使用我们提供的 hooks 轻松完成 table 分页请求。
 
-
-1. login page(light):
+1. 登录页面(light):
 
 ![img1.png](docs%2Fimg1.png)
 
-2. login page(dark):
+2. 登录页面(dark):
 
 ![img1.png](docs%2Fimg2.png)
 
-3. dashboard page(light):
+3. dashboard 页面(light):
 
 ![img1.png](docs%2Fimg3.png)
 
-4. dashboard page(collapsed):
+4. dashboard 页面(collapsed):
 
 ![img1.png](docs%2Fimg4.png)
 
-5. dashboard page(dark):
+5. dashboard 页面(dark):
 
 ![img1.png](docs%2Fimg5.png)
 
-6. user table page(dark):
+6. 用户列表页面(dark):
 
 ![img1.png](docs%2Fimg6.png)
 
-## Getting Started
+## 快速开始
 
-Using this template create a project.
+使用该模板创建一个项目。
 
-Finally, run the following commands to start the development server:
+最后，运行以下命令启动：
 
 ```shell
 pnpm install
@@ -69,12 +68,12 @@ pnpm install
 npm run dev
 ```
 
-You should now be able to access the application at http://localhost:3000.
+现在您应该可以通过以下网址访问应用程序： http://localhost:3000.
 
 
-### Contributor
+### 贡献指南
 
-[Contributors](https://github.com/lijunping365/Open-Idea-Web/graphs/contributors)
+[Contributors](https://github.com/lijunping365/Next-Antd-Template/graphs/contributors)
 
 ## LICENSE
 

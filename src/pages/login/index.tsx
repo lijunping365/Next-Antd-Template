@@ -57,19 +57,18 @@ const Login: React.FC = () => {
                   color: theme === 'light' ? '#080e29' : '#c5c5c5',
                 }}
               >
-                Open-Job
+                Next-Antd
               </span>
             </Link>
 
             <div
               style={{
                 marginTop: '12px',
-                marginBottom: '40px',
                 color: theme === 'light' ? '#5e637a' : '#9b9a9a',
                 fontSize: '16px',
               }}
             >
-              分布式调度平台
+              Template with Next and Antd
             </div>
           </h1>
         </div>

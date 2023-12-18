@@ -85,7 +85,7 @@ const BaseLayout = ({ children }: any) => {
                 className='layout-logo'
                 style={{ marginRight: 10 }}
               />
-              Open-Job
+              Next-Antd
             </div>
           )}
         </h1>
