@@ -1,0 +1,41 @@
+.layout-side {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.layout-title {
+    height: 64px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-logo {
+    width: 32px;
+    height: 32px;
+    color: #149eca;
+}
+
+.layout-menu {
+    border: none;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.layout-content {
+    padding: 24px;
+}
+
+.search-form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
