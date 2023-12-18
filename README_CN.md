@@ -30,7 +30,11 @@ English / [简体中文](./README_CN.md)
 
 > 提示!
 >
-> 我们对 antd table 的分页请求进行了封装，你可以使用我们提供的 hooks 轻松完成 table 分页请求。
+> 1. 我们对 antd table 的分页请求进行了封装，你可以使用我们提供的 hooks 轻松完成 table 分页请求。
+> 
+> 2. 提供用户登录之后全局获取用户信息的 context。
+> 
+> 3. 可以使用我们提供的主题 context 轻松获取 theme 或修改主题。
 
 1. 登录页面(light):
 

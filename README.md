@@ -30,8 +30,11 @@ This template uses the new Next.js Page Router. This template providers dashboar
 
 > TIP!
 >
-> We have encapsulated the antd table paging request, you can use the hooks we provide to easily complete the table paging request.
-
+> 1. We have encapsulated the antd table paging request, you can use the hooks we provide to easily complete the table paging request.
+> 
+> 2. Provide a context for globally retrieving user information after the user has logged in.
+> 
+> 3. Themes can be easily retrieved or modified using the theme context we provide.
 
 1. login page(light):
 
