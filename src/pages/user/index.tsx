@@ -17,7 +17,7 @@ const TableList: React.FC = () => {
   const [updateFormValues, setUpdateFormValues] = useState({});
 
   const request = async (params: API.PageParams) => {
-    const values = await form.validateFields();
+    const values = form.getFieldsValue();
     return await fetchUserPage({
       ...values,
       current: params.current,
