@@ -23,6 +23,7 @@ This is a starter template using the following stack:
 - Framework - [Next.js 14](https://nextjs.org/14)
 - Language - [TypeScript](https://www.typescriptlang.org)
 - Components - [Ant Design 5](https://ant-design.antgroup.com/index-cn)
+- Style - [Tailwind CSS](https://tailwindui.com/)
 - Linting - [ESLint](https://eslint.org)
 - Formatting - [Prettier](https://prettier.io)
 
