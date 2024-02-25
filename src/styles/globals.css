@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .layout-side {
     overflow-x: hidden;
     overflow-y: auto;
