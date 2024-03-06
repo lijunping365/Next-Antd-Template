@@ -15,12 +15,12 @@ export function middleware(req: NextRequest) {
     `${basePath}${signInPage}?redirect=${pathname}`,
     origin
   );
-  return NextResponse.redirect(signInUrl);
+
+  const redirectResponse = NextResponse.redirect(signInUrl);
+  redirectResponse.headers.set('x-middleware-cache', 'no-cache'); // ! FIX: Disable caching
+  return redirectResponse;
 }
 
 export const config = {
-  matcher: [
-    '/dashboard/:path*',
-    '/user/:path*',
-  ],
+  matcher: ['/dashboard/:path*', '/user/:path*'],
 };

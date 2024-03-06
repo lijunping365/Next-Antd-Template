@@ -31,11 +31,12 @@ const AccountLogin: React.FC<FormLoginProps> = ({ redirect }) => {
         deviceId,
         type: 'account',
       });
-      message.success('登录成功！');
-      setAccessToken(response.accessToken);
+
       const user = await currentUser();
       if (user) {
         setUser(user);
+        message.success('登录成功！');
+        setAccessToken(response.accessToken);
         router.replace(redirect);
       }
     } catch (error) {
